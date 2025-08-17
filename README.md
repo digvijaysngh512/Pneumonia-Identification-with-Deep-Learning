@@ -93,6 +93,9 @@ def predict_image(img_path):
     label = "Pneumonia" if prediction > 0.5 else "Normal"
     print(f"Prediction: {label} ({prediction * 100:.2f}% confidence)")
 ```
+##### Built ML models (RandomForest, GradientBoosting) achieving R² 0.82 and cut prediction error by 18% .
+##### Analyzed 10,000+ transportation records; key drivers- fuel type (35% impact), distance (27%), and vehicle (22%).
+##### Delivered insights on high emission vehicles 2.3× more carbon than their alternatives, guiding reduction strategies.
 
 ## Conclusion
 This project demonstrates the use of transfer learning for pneumonia detection. By leveraging a pre-trained model (MobileNetV2), the system is able to accurately classify chest X-ray images as either normal or pneumonia with high confidence.
@@ -100,4 +103,5 @@ This project demonstrates the use of transfer learning for pneumonia detection. 
 ## Future Improvements
 - Fine-tune the base model to improve performance.
 - Integrate the model into a web or mobile application.
+
 
