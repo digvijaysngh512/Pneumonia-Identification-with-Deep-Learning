@@ -1,5 +1,5 @@
 
-# Pneumonia Detection using Deep Learning
+# Pneumonia Identification with Deep Learning
 
 This project uses deep learning techniques to detect pneumonia from chest X-ray images. A pre-trained MobileNetV2 model is used for transfer learning, allowing us to classify X-ray images into two categories: **Normal** and **Pneumonia**.
 
@@ -103,5 +103,6 @@ This project demonstrates the use of transfer learning for pneumonia detection. 
 ## Future Improvements
 - Fine-tune the base model to improve performance.
 - Integrate the model into a web or mobile application.
+
 
 
